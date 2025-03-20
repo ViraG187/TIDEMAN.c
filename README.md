@@ -1,9 +1,9 @@
 <h1>Figma created to solve:</h1>
 <a href="https://www.figma.com/board/DwU95heb5O30HirnHSU0zl/cs50?node-id=2001-2&t=mZ0wXBTSkmlzQKoJ-1">My_Tideman_Figma</a> 
 ![image]"https://github.com/user-attachments/assets/c9bb0892-a763-4f63-a31d-b36417e9f350"
-<body style="font-family:verdana;">
+<body>
   <h4>1. Candidates: Hare, Krishna, Radhe</h4>
-    <p>  Preferences:  3x3 Matrix (All values start at 0)<br>
+    <p style="font-family:verdana;">  Preferences:  3x3 Matrix (All values start at 0)<br>
          Pairs: Empty <br>
          Locked Graph: 3x3 Matrix (All False)</p>
   2. Get candidated from commandline argument:
