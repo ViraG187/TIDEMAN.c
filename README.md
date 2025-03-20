@@ -5,12 +5,12 @@
 
 ![image](https://github.com/user-attachments/assets/c9bb0892-a763-4f63-a31d-b36417e9f350)
 
-## 1. Candidates: `Hare`, `Krishna`, `Radhe`
+### 1. Candidates: `Hare`, `Krishna`, `Radhe`
 - **Preferences:**  3x3 Matrix (All values start at 0)
 - **Pairs:** Empty
 - **Locked Graph:** 3x3 Matrix (All False)
 
-## 2. Get candidates from command-line arguments:
+### 2. Get candidates from command-line arguments:
 ```c
 int main(int argc, char *argv[]) {
     candidate_count = argc - 1;
@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
 cand[] = { "Hare", "Krishna", "Radhe" }
 ```
 
-## 3. Collect and arrange in preference table (Adjacency Matrix)
+### 3. Collect and arrange in preference table (Adjacency Matrix)
 ```c
 int voters;
 printf("Enter number of Voters: ");
@@ -54,7 +54,7 @@ for (int i = 0; i < voters; i++) {
 | Radhe  | 1    | 1       | 0     |
 
 ---
-## 4. **Vote Function**
+### 4. **Vote Function**
 ### Logic Flow:
 ```
 Start → User enters candidate name  
@@ -87,7 +87,7 @@ bool vote(int rank, char* name, int ranks[]) {
 ```
 
 ---
-## 5. **Processing Votes**
+### 5. **Processing Votes**
 ### `record_preferences()`
 ```
 Start
@@ -186,7 +186,7 @@ End
 ```
 
 ---
-## 6. **Finding the Winner**
+### 6. **Finding the Winner**
 ### `print_winner()`
 ```
 Start
