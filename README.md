@@ -7,12 +7,13 @@
          Pairs: Empty <br>
          Locked Graph: 3x3 Matrix (All False)</p>
   2. Get candidated from commandline argument:
-  " int main(int argc, char *argv[]) {
-    candidate_count = argc - 1;
-    
-    for (int i = 0; i < candidate_count; i++) {
+  <pre style="background-color:rgb(200,200,200)>
+    int main(int argc, char *argv[]) {
+    candidate_count = argc - 1
+   for (int i = 0; i < candidate_count; i++) {
         cand[i] = argv[i + 1];  // Storing candidate names
-    }"
+    } 
+    </pre>
   3. Storing Candidates as : cand[] = { "Hare", "Krishna", "Radhe" }
   4. Collect and arrange in preference table (Adjency Matrix)
       "   int voters;
